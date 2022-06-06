@@ -1,0 +1,95 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: 'Alegreya', serif;
+}
+.navbar{
+    background-image: url(https://anhdepfree.com/wp-content/uploads/2018/12/50-hinh-nen-mau-xanh-dep-nhat-1.jpeg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+.tuan-hai{
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+}
+.navbar-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding-left: 10%;
+
+}
+.nav-link{
+    text-decoration: none;
+    gap: 20px;
+}
+.btn{
+    color: black;
+    background-color: white;
+    border: 2px groove rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+}
+
+.main{
+    background-color: #FFE5E4;
+    margin-top: 1px;
+}
+.div-timkiem{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.input-header{
+    width: 500px;
+}
+.btn-header{
+    width: 85px;
+}
+.menu-steak, .menu-drinks, .menu-extra, .menu-pasta, .menu-salad, .menu-dessert{
+    text-align: center;
+    margin-top: 70px;
+}
+.img-steak, .img-drinks, .img-extra, .img-pasta, .img-salad, .img-dessert{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.name-cost{
+    text-align: center;
+}
+.footer{
+    background-image: url(https://anhdepfree.com/wp-content/uploads/2018/12/50-hinh-nen-mau-xanh-dep-nhat-1.jpeg);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 250px;
+    padding-top: 50px;
+    margin-top: -18px;
+}
+
+.h1{
+    font-size: 20px;
+}
+.btn-send{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    width: 50px;
+}
+
